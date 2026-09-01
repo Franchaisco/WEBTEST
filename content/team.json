@@ -1,0 +1,32 @@
+{
+  "team": [
+    {
+      "name": "Naam oprichter",
+      "role": "Oprichter & directeur",
+      "bio": "Richtte de stichting op vanuit jarenlange ervaring in het begeleiden van jongeren en gezinnen. Meer details volgen.",
+      "initials": "EV",
+      "color": "#1f93a3"
+    },
+    {
+      "name": "Naam trainingscoördinator",
+      "role": "Trainingscoördinator",
+      "bio": "Stelt het trainingsaanbod samen en begeleidt nieuwe trainers bij de start.",
+      "initials": "TC",
+      "color": "#b48fd1"
+    },
+    {
+      "name": "Naam maatschappelijk werker",
+      "role": "Maatschappelijk werker",
+      "bio": "Begeleidt individuele trajecten en is het eerste aanspreekpunt voor deelnemers.",
+      "initials": "MW",
+      "color": "#6fbfa0"
+    },
+    {
+      "name": "Naam vrijwilligerscoördinator",
+      "role": "Vrijwilligerscoördinator",
+      "bio": "Werft en begeleidt vrijwilligers en zorgt dat iedereen goed voorbereid aan de slag gaat.",
+      "initials": "VC",
+      "color": "#4a3178"
+    }
+  ]
+}
