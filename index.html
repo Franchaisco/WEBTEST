@@ -51,8 +51,8 @@
     <section class="hero">
       <div class="container">
         <div class="hero-copy">
-          <h1>Mensen dichter bij elkaar brengen</h1>
-          <p class="lede">
+          <h1 id="hero-headline">Mensen dichter bij elkaar brengen</h1>
+          <p class="lede" id="hero-intro">
             Fundación Mariposa ondersteunt jongeren, volwassenen en gezinnen
             met trainingen die zelfvertrouwen, sociale vaardigheden en onderling
             begrip versterken. Geen quick fix, maar aandacht die blijft hangen.
@@ -72,29 +72,29 @@
     <section class="section" id="over-ons">
       <div class="container about-grid">
         <div>
-          <p class="lede">
+          <p class="lede" id="about-lede">
             Wij geloven dat mensen sterker worden wanneer ze zich gezien en
             gehoord voelen — en dat verbinding met anderen daar de sleutel toe is.
           </p>
-          <p>
+          <p id="about-p1">
             Fundación Mariposa is opgericht vanuit de overtuiging dat sociale
             vaardigheden niet vanzelfsprekend zijn, maar wel te leren. Met onze
             trainingen, workshops en begeleidingstrajecten helpen we mensen van
             alle leeftijden om steviger in het leven te staan, grenzen aan te
             geven en betekenisvolle relaties op te bouwen.
           </p>
-          <p>
+          <p id="about-p2">
             We werken vanuit een klein, betrokken team en met vrijwilligers uit
             de gemeenschap. Onze aanpak is praktisch, laagdrempelig en altijd
             op maat van de deelnemer.
           </p>
         </div>
         <div>
-          <p>
+          <p id="about-pillars-intro">
             Onze aanpak rust op drie pijlers: persoonlijke aandacht, een veilige
             leeromgeving en de overtuiging dat iedereen verder kan groeien.
           </p>
-          <div class="stat-row">
+          <div class="stat-row" id="about-stats">
             <div class="stat">
               <span class="num">12+</span>
               <span class="label">jaar actief</span>
@@ -117,12 +117,12 @@
       <div class="container">
         <div class="section-head">
           <h2>Trainingen</h2>
-          <p class="section-intro">
+          <p class="section-intro" id="trainingen-intro">
             Elke training is opgebouwd rond een concrete vaardigheid en wordt
             begeleid door ervaren trainers.
           </p>
         </div>
-        <div class="training-list">
+        <div class="training-list" id="training-list">
           <div class="training-row">
             <div class="training-name">Weerbaarheidstraining</div>
             <div class="training-desc">
@@ -177,12 +177,12 @@
       <div class="container">
         <div class="section-head">
           <h2>Het team</h2>
-          <p class="section-intro">
+          <p class="section-intro" id="team-intro">
             Een klein team met een gedeelde overtuiging: iedereen kan groeien
             met de juiste aandacht.
           </p>
         </div>
-        <div class="team-grid">
+        <div class="team-grid" id="team-grid">
           <div class="team-card">
             <div class="avatar" style="background:#1f93a3;">EV</div>
             <div class="team-name">Naam oprichter</div>
@@ -228,14 +228,14 @@
       <div class="container contact-grid">
         <div>
           <h2>Neem contact op</h2>
-          <p>
+          <p id="contact-intro">
             Heb je een vraag over een training, wil je je aanmelden als
             vrijwilliger, of wil je de stichting steunen? Laat het ons weten.
           </p>
-          <div class="contact-details">
-            <span>info@stichtingverbinding.nl</span>
-            <span>010 - 123 45 67</span>
-            <span>Voorbeeldstraat 12, Rotterdam</span>
+          <div class="contact-details" id="contact-details">
+            <span id="contact-email">info@stichtingverbinding.nl</span>
+            <span id="contact-phone">010 - 123 45 67</span>
+            <span id="contact-address">Voorbeeldstraat 12, Rotterdam</span>
           </div>
         </div>
         <form class="contact-form" id="contact-form" action="https://formsubmit.co/ajax/franchaisco03@gmail.com" method="POST">
@@ -279,6 +279,7 @@
     </div>
   </footer>
 
+  <script src="render-content.js"></script>
   <script src="webtest.js"></script>
 </body>
 </html>
