@@ -3,16 +3,16 @@
    Design tokens
    =========================================================== */
 :root {
-  --bg: #f7f4ec;
-  --bg-soft: #f0ead9;
-  --ink: #17241c;
-  --ink-soft: #45524a;
-  --gold: #c99a3b;
-  --gold-deep: #a97e2c;
-  --rust: #a24e36;
-  --sage: #7c9473;
-  --line: #d9d2c0;
-  --white: #fffdf8;
+  --bg: #f5f1ea;
+  --bg-soft: #efe7f7;
+  --ink: #4a3178;
+  --ink-soft: #6e5f82;
+  --gold: #b48fd1;
+  --gold-deep: #9868b8;
+  --rust: #1f93a3;
+  --sage: #6fbfa0;
+  --line: #ddd3ea;
+  --white: #fffdfa;
 
   --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
   --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
@@ -237,26 +237,15 @@ p:last-child { margin-bottom: 0; }
 
 .hero-art {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.thread-path {
-  stroke: var(--rust);
-  stroke-width: 2.5;
-  fill: none;
-  stroke-linecap: round;
-  stroke-dasharray: 900;
-  stroke-dashoffset: 900;
-  animation: draw-thread 1.8s ease-out 0.2s forwards;
-}
-
-.thread-node { fill: var(--ink); }
-.thread-node.gold { fill: var(--gold); }
-.thread-node.sage { fill: var(--sage); }
-.thread-node.rust { fill: var(--rust); }
-
-@keyframes draw-thread {
-  to { stroke-dashoffset: 0; }
+.hero-art img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
 }
 
 /* ===========================================================
